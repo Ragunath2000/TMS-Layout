@@ -27,113 +27,108 @@
 
     <!-- Template Stylesheet -->
     <link href="src/css/style.css" rel="stylesheet">
+    <link rel="src/stylesheet" href="css/styles.css">
 </head>
 
 <body>
-        <!-- Sidebar Start -->
-        <div class="sidebar pe-4 pb-3">
-            <nav class="navbar bg-light navbar-light">
-                <a href="index.html" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary">TMS</h3>
-                </a>
-                <div class="navbar-nav w-100">
-                    <a href="headhome.html" class="nav-item nav-link active"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-                    <a href="Profileview.html" class="nav-item nav-link "><i class="fa-solid fa-address-card"></i>My Profile</a>
-                    <a href="headdashboard.html" class="nav-item nav-link"><i class="fa fa-desktop" aria-hidden="true"></i>Dashboard</a>
-                    <a href="head-coordinator.html" class="nav-item nav-link"><i class="fa fa-user" aria-hidden="true"></i>Co-Ordinator</a>
-                    <a href="head-department.html" class="nav-item nav-link"><i class="fa fa-book" aria-hidden="true"></i>Department</a>
-                    <a href="head-trainer.html" class="nav-item nav-link"><i class="fa fa-male" aria-hidden="true"></i>Trainer</a>
-                    <a href="head-trainee.html" class="nav-item nav-link"><i class="fa fa-users" aria-hidden="true"></i>Trainee</a>
-                    <a href="head-reviewer.html" class="nav-item nav-link"><i class="fa fa-user-md" aria-hidden="true"></i>Reviewer</a>
-                </div>
-            </nav>
+  <!-- Sidebar Start -->
+  <div class="sidebar pe-4 pb-3">
+    <nav class="navbar bg-light navbar-light">
+        <a href="index.html" class="navbar-brand mx-4 mb-3">
+            <h3 class="text-primary">TMS</h3>
+        </a>
+        <div class="navbar-nav w-100">
+            <a href="headhome.html" class="nav-item nav-link "><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+            <a href="Profileview.html" class="nav-item nav-link "><i class="fa-solid fa-address-card"></i>My Profile</a>
+            <a href="headdashboard.html" class="nav-item nav-link"><i class="fa fa-desktop" aria-hidden="true"></i>Dashboard</a>
+            <a href="head-coordinator.html" class="nav-item nav-link active"><i class="fa fa-user" aria-hidden="true"></i>Co-Ordinator</a>
+            <a href="head-department.html" class="nav-item nav-link"><i class="fa fa-book" aria-hidden="true"></i>Department</a>
+            <a href="head-trainer.html" class="nav-item nav-link"><i class="fa fa-male" aria-hidden="true"></i>Trainer</a>
+            <a href="head-trainee.html" class="nav-item nav-link"><i class="fa fa-users" aria-hidden="true"></i>Trainee</a>
+            <a href="head-reviewer.html" class="nav-item nav-link"><i class="fa fa-user-md" aria-hidden="true"></i>Reviewer</a>
         </div>
-        <!-- Sidebar End -->
+    </nav>
+</div>
+<!-- Sidebar End -->
 
-        <!-- Content Start -->
-        <div class="content">
-           <!-- Navbar Start -->
-           <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
-            <a href="#" class="sidebar-toggler flex-shrink-0">
-                <i class="fa fa-bars"></i>
+<!-- Content Start -->
+<div class="content">
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
+    <a href="#" class="sidebar-toggler flex-shrink-0">
+        <i class="fa fa-bars"></i>
+    </a>
+    <div class="navbar-nav align-items-center ms-auto">
+        <div class="nav-item">
+            <a href="#" class="d-none d-lg-inline-flex">
+                <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;Log Out</a>
             </a>
-            <div class="navbar-nav align-items-center ms-auto">
-                <div class="nav-item">
-                    <a href="#" class="d-none d-lg-inline-flex">
-                        <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;Log Out</a>
-                    </a>
-                </div>
-            </div>
-            </nav>
-        <!-- Navbar End -->
-
-        
-
-        <div class="container-xxl position-relative bg-white d-flex p-0">
-        
-
-
-            <!-- Sign Up Start -->
-            <div class="container-fluid">
-                <div class="row h-100 align-items-left justify-content-center" style="min-height: 100vh;">
-                    <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                        <div class="bg-mute rounded p-4 p-sm-5 my-4 mx-3">
-                            <div class="d-flex align-items-center justify-content-between mb-3">
-                                <a href="index.html" class="">
-                                    <h3 class="text-black">Add Co-Ordinator</h3>
-                                </a>
-                                
-                            </div>
-                            <div class="form-floating mb-4">
-                                <input type="text" class="form-control" id="floatingText" placeholder="jhondoe">
-                                <label for="floatingText">Fullname</label>
-                            </div>
-                            <div class="form-floating mb-4">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                <label for="floatingInput">Email address</label>
-                            </div>
-                            <div class="form-floating mb-4 nav-item dropdown">
-                                <input type="text" class="form-control" id="floatingText" placeholder="jhondoe">
-                                <label for="floatingText">Username</label>
-                            </div><div class="form-floating mb-4">
-                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                                <label for="floatingPassword">Password</label>
-                            </div>
-                            
-                           
-                            <hr>
-                            <div class="form-group mt-3">
-                              <label class="mr-2">Upload your Image:</label>
-                              <input type="file" name="file">
-                            </div>
-                            <hr>
-                            <a href="head-coordinator.html"><button type="submit" class="btn btn-dark pe-4 px-4">Add</button></a>
-                        
-                          </form>
-                      </div> 
-                     
-                        </div>  
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Sign Up End -->
         </div>
-    
+    </div>
+    </nav>
+<!-- Navbar End -->
+<div class="Bread pt-1 px-1">
+  <body>
+      <!-- Breadcrums Start -->
+      <div style="margin:20px;">
+          <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                      <a href="headhome.html">Home</a></li>
+                  <li class="breadcrumb-item ">
+                      <a href="head-coordinator.html">Co-Ordinator List</a>
+                  </li>
+                  <li class="breadcrumb-item active">Add Co-Ordinator</li>
+              </ol>
+          </nav>
+      </div>
+  </body>
+</div>
 
-        <div class="container-fluid flex-end pt-4 px-4">
-            <div class="bg-light rounded-top p-4">
-                <div class="row">
-                    <div class="col-12 col-sm-6 text-center text-sm-start">
-                        &copy; <a href="#">Your Site Name</a>, All Right Reserved. 
-                    </div>
-                    <div class="col-12 col-sm-6 text-center text-sm-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
+  <div class="col-sm-6 p-4">
+      <h3 class="text-black pb-2">Add Co-Ordinator</h3> 
+        <div class="form-floating mb-4">
+            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe">
+            <label for="floatingText">Fullname</label>
+        </div>
+        <div class="form-floating mb-4">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-4 nav-item dropdown">
+            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe">
+            <label for="floatingText">Username</label>
+        </div><div class="form-floating mb-4">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <hr>
+        <div class="form-group mt-3">
+        <label class="mr-2">Upload your Image:</label>
+        <input type="file" name="file">
+        </div>
+        <hr>
+        <a href="head-coordinator.html"><button type="submit" class="btn btn-dark pe-4 px-4">Add</button></a>
+  </div>  
+
+   <!-- Footer Start -->
+   <footer>
+    <div class="container-fluid pt-4 px-4">
+        <div class="bg-light rounded-top p-4">
+            <div class="row">
+                <div class="col-12 col-sm-6 text-center text-sm-start">
+                    &copy; <a href="#">Your Site Name</a>, All Right Reserved. 
+                </div>
+                <div class="col-12 col-sm-6 text-center text-sm-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a href="https://htmlcodex.com">HTML Codex</a>
                 </div>
             </div>
         </div>
+    </div>
+  </footer>
+<!-- Footer End -->
+</div>
         
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -151,3 +146,4 @@
 </body>
 
 </html>
+
