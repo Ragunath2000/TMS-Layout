@@ -278,34 +278,3 @@
 .bread{
     margin-left: 10px;
 }
-
-#style {
-    display: flex;
-}
-
-#search {
-    max-height: 40px;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-background-image {
-    background-image: url(/src/img/bb.jpg);
-    height: auto;  
-    width: auto;
-     
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-body {
-    height: 100%;
-}
-#img{
-    background-position: center;
-    padding-left: 100px;
-    height:100%;
-    width: 80%;
-  
-}
